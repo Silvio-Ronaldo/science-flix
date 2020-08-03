@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Link } from './styles';
+import { StyledLink } from './styles';
 
 function ButtonLink(props) {
     return (
-        <Link href={props.href}>
+        <StyledLink>
             {props.children}
-        </Link>
+        </StyledLink>
     );
 }
 

@@ -22,10 +22,6 @@ export const Container = styled.header`
     }
 `;
 
-export const Link = styled.a`
-    cursor: pointer;
-`;
-
 export const Image = styled.img`
     height: 60px;
 

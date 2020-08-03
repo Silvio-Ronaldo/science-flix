@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import { Container, Link, Image } from './styles';
+import { Container, Image } from './styles';
 
 import ButtonLink from '../ButtonLink';
 
@@ -9,13 +10,15 @@ import Logo from '../../assets/logoScienceFlixGreen.png';
 function Header() {
     return (
         <Container>
-            <Link href="/" >
+            <Link to="/" >
                 <Image src={Logo} alt="ScienceFlix logo" />
             </Link>
 
-            <ButtonLink href="/" >
-                Novo vídeo
-            </ButtonLink>
+            <Link to="/cadastro/video">
+                <ButtonLink>
+                    Novo vídeo
+                </ButtonLink>
+            </Link>
         </Container>
     );
 }

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-export const Link = styled.a`
+export const StyledLink = styled.button`
     color:  var(--white);
+    background-color: var(--black);
     border: solid 1px var(--secondary);
     box-sizing: border-box;
     padding: 16px 24px;
@@ -16,6 +17,7 @@ export const Link = styled.a`
 
     :hover, :focus {
         opacity: .5;
+        cursor: pointer;
     }
 
     @media(max-width: 800px) {
