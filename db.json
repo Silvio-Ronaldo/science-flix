@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Astronomia",
+            "description": "Quer conhecer mais sobre o universo? Não perca essa seleção de vídeo incríveis!",
+            "color": "#7E0F80"
+        },
+        {
+            "id": 2,
+            "name": "Física",
+            "description": "Xii!!! Física de novo não! Caaaaalma jovem gafanhoto! Separamos apenas os vídeos que vão te fazer rever sua opinião da física, vem com a gente!",
+            "color": "#22BB01"
+        }
+    ]
+}
