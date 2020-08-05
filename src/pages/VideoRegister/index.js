@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { MainTitle, Form, Button, StyledLink } from './styles';
@@ -7,14 +7,27 @@ import PageDefault from '../../components/PageDefault';
 import FormField from '../../components/FormField';
 
 import createNewVideo from '../../repositories/videos';
+import { getOnlyCategories } from '../../repositories/categories';
 
 function CadastroVideo() {
     const [videoTitle, setVideoTitle] = useState('');
     const [videoUrl, setVideoUrl] = useState('');
-    const [category, setCategory] = useState('');
-    const [videos, setVideos] = useState([])
+    const [videoCategory, setVideoCategory] = useState('');
+    const [categories, setCategories] = useState([]);
+
+    const categoryTitles = categories.map(({ name }) => name);
 
     const history = useHistory();
+
+    useEffect(() => {
+        async function getAll() {
+            const data = await getOnlyCategories();
+
+            setCategories(data);
+        }
+
+        getAll();
+    }, [])    
 
     function handleTitle(title) {
         setVideoTitle(title);
@@ -25,21 +38,21 @@ function CadastroVideo() {
     }
 
     function handleCategory(category) {
-        setCategory(category);
+        setVideoCategory(category);
     }
 
     async function handleSubmit(event) {
         event.preventDefault();
 
+        const chooseCategory = categories.find((category) => {
+            return category.name === videoCategory;
+        });
+
         const videoValues = {
-            categoryId: 1,
+            categoryId: chooseCategory.id,
             title: videoTitle,
             url: videoUrl
         }
-
-        setVideos([
-            videoValues
-        ]);
 
         await createNewVideo(videoValues);
 
@@ -59,6 +72,7 @@ function CadastroVideo() {
                     value={videoTitle}
                     onChange={(event) => handleTitle(event.target.value)}
                     as="input"
+                    suggestions={[]}
                 />
 
                 <FormField 
@@ -69,6 +83,7 @@ function CadastroVideo() {
                     value={videoUrl}
                     onChange={(event) => handleUrl(event.target.value)}
                     as="input"
+                    suggestions={[]}
                 />
 
                 <FormField 
@@ -76,9 +91,10 @@ function CadastroVideo() {
                     type="text"
                     placeholder="Digite a categoria do vídeo"
                     name="category"
-                    value={category}
+                    value={videoCategory}
                     onChange={(event) => handleCategory(event.target.value)}
                     as="input"
+                    suggestions={categoryTitles}
                 />
 
 

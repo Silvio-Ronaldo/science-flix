@@ -5,14 +5,14 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
-import getCategoriesWithVideos from '../../repositories/categories';
+import { getAllCategoriesWithVideos } from '../../repositories/categories';
 
 function Home() {
     const [InitialsData, setInitialsData] = useState([]);
 
     useEffect(() => {
         async function getAll() {
-            const categoriesWithVideos = await getCategoriesWithVideos();
+            const categoriesWithVideos = await getAllCategoriesWithVideos();
 
             setInitialsData(categoriesWithVideos);
         }
