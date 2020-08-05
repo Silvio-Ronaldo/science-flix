@@ -1,16 +1,108 @@
 {
-    "categories": [
-        {
-            "id": 1,
-            "name": "Astronomia",
-            "description": "Quer conhecer mais sobre o universo? Não perca essa seleção de vídeo incríveis!",
-            "color": "#7E0F80"
-        },
-        {
-            "id": 2,
-            "name": "Física",
-            "description": "Xii!!! Física de novo não! Caaaaalma jovem gafanhoto! Separamos apenas os vídeos que vão te fazer rever sua opinião da física, vem com a gente!",
-            "color": "#22BB01"
-        }
-    ]
+  "categories": [
+    {
+      "id": 1,
+      "name": "Astronomia",
+      "description": "Quer conhecer mais sobre o universo? Não perca essa seleção de vídeos incríveis sobre o cosmos!",
+      "color": "#7E0F80"
+    },
+    {
+      "id": 2,
+      "name": "Física",
+      "description": "Xii!!! Física de novo não! Caaaaalma jovem gafanhoto! Separamos apenas os vídeos que vão te fazer rever sua opinião da física, vem com a gente!",
+      "color": "#2200ff"
+    },
+    {
+      "id": 3,
+      "name": "Biologia",
+      "description": "Se jogue no fantástico mundo da vida e venha conhecer mais sobre biologia!",
+      "color": "#22BB01"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Explicando os buracos de minhoca - Quebrando o Espaço-tempo",
+      "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "title": "Onde Estão Todas as Civilizações Inteligentes? (O Paradoxo de Fermi)",
+      "url": "https://www.youtube.com/watch?v=pwhXynMIXTc"
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Estamos sozinhos no Universo? | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=mVJsvjC8PqM"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "Conhecendo o Sistema Solar - Descomplicando a Astronomia",
+      "url": "https://www.youtube.com/watch?v=zQvpKm9dCD0"
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "Estrelas de Nêutrons: As coisas mais extremas que não são Buracos Negros",
+      "url": "https://www.youtube.com/watch?v=udFxKZRyQt4"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "title": "A ENTROPIA EXPLICADA",
+      "url": "https://www.youtube.com/watch?v=qjHfkfIs1Ug"
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "title": "O Que É Energia? | Episódio 1",
+      "url": "https://www.youtube.com/watch?v=3VLPyOLC1nc"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "title": "Tempo | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=4GGS9XQpbkM"
+    },
+    {
+      "id": 9,
+      "categoryId": 2,
+      "title": "Quarta dimensão explicada por Carl Sagan",
+      "url": "https://www.youtube.com/watch?v=WMZNLy0hGEI0"
+    },
+    {
+      "id": 10,
+      "categoryId": 3,
+      "title": "O Que Meu DNA Pode Dizer Sobre Mim?",
+      "url": "https://www.youtube.com/watch?v=9flhEc_b8Ro"
+    },
+    {
+      "id": 11,
+      "categoryId": 3,
+      "title": "Biodiversidade 1 - Quantas são as espécies? (#Pirula 136.2)",
+      "url": "https://www.youtube.com/watch?v=88utcbkjQcU"
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "title": "O que é o câncer | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=pfNL0fo7T5w"
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "title": "Os 7 PREDADORES mais VORAZES do mundo",
+      "url": "https://www.youtube.com/watch?v=ZhIb64VGEIA"
+    },
+    {
+      "categoryId": 1,
+      "title": "Nós Estamos Vivendo em um Multiverso?",
+      "url": "https://www.youtube.com/watch?v=G7A5xrhWgT0",
+      "id": 14
+    }
+  ]
 }

@@ -15,7 +15,7 @@ function CategoryRegister() {
 
     useEffect(() => {
         async function loadCategories() {
-            const { data } = await api.get('/');
+            const { data } = await api.get('/categories');
 
             setCategories([
                 ...data
@@ -96,14 +96,6 @@ function CategoryRegister() {
                     Cadastrar
                 </Button>
             </Form>
-
-            <CategoryList>
-                {categories.map((category) => {
-                    return (
-                        <li key={category.id}>{category.name}</li>
-                    )
-                })}
-            </CategoryList>
 
             <StyledLink to="/">
                 Ir para a Home

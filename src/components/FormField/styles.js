@@ -4,7 +4,7 @@ export const StyledLabel = styled.label`
     display: flex;
     flex-direction: column;
     margin: 15px 0 5px 0;
-    color: var(--primary);
+    color: var(--white);
 `;
 
 export const StyledInput = styled.input`
