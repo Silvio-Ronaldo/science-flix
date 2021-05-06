@@ -2,7 +2,7 @@
   <img src="./src/assets/logoScienceFlixGreen.png" alt="ScienceFlix Logo" height=100 />
 </h1>
 
-<p align="center"><strong>🧬 Prepare the popcorn and learn science as if you were watching series.</strong></br>Developed at Imersão Alura</br>Practical project for study<p>
+<p align="center"><strong>🧬 Prepare the popcorn and learn science as if you were watching series. 🍿</strong></br>Developed at Imersão Alura</br>Practical project for study<p>
 
 <p align="center">
   <a href="./LICENSE">
@@ -25,6 +25,10 @@
   </a>
 </p>
 
+<p align="center">ScienceFlix is a platform that brings together several YouTube videos about science, in the most diverse topics.</br>
+You can play in a breathtaking sequence of Astronomy, enchanting Biology or even Physics for the brave.</br>
+We curate so you don't have to worry about playlists.</p>
+
 
 <h2>
   📋 Table of contents
@@ -32,7 +36,6 @@
 <ul>
   <li><a href="./README.md#Status">Status</a></li>
   <li><a href="./README.md#Demonstration">Demonstration</a></li>
-  <li><a href="./README.md#Extra-Features">Extra Features</a></li>
   <li><a href="./README.md#Running-Locally">Running Locally</a></li>
   <li><a href="./README.md#Technologies">Technologies</a></li>
   <li><a href="./README.md#Author">Author</a></li>
@@ -56,7 +59,7 @@
 
 <h3>Watching Science</h3>
   <p align="center">
-    <img src="./assets/player.gif" alt="ScienceFlix Video" />
+    <img src="./assets/watch-science.gif" alt="ScienceFlix Video" />
   </p>
   
 
