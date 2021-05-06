@@ -34,12 +34,12 @@ We curate so you don't have to worry about playlists.</p>
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="./README.md#Status">Status</a></li>
-  <li><a href="./README.md#Demonstration">Demonstration</a></li>
-  <li><a href="./README.md#Running-Locally">Running Locally</a></li>
-  <li><a href="./README.md#Technologies">Technologies</a></li>
-  <li><a href="./README.md#Author">Author</a></li>
-  <li><a href="./README.md#License">License</a></li>
+  <li><a href="./science-flix#-status">Status</a></li>
+  <li><a href="./science-flix#%EF%B8%8F-demonstration">Demonstration</a></li>
+  <li><a href="./science-flix#%EF%B8%8F-running-locally">Running Locally</a></li>
+  <li><a href="./science-flix#%EF%B8%8F-technologies">Technologies</a></li>
+  <li><a href="./science-flix#-author">Author</a></li>
+  <li><a href="./science-flix#%EF%B8%8F-license">License</a></li>
 </ul>
 
 <h2>📌 Status</h2>
