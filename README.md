@@ -34,7 +34,7 @@ We curate so you don't have to worry about playlists.</p>
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="./README.md#📌-Status">Status</a></li>
+  <li><a href="./README.md#Status">Status</a></li>
   <li><a href="./README.md#Demonstration">Demonstration</a></li>
   <li><a href="./README.md#Running-Locally">Running Locally</a></li>
   <li><a href="./README.md#Technologies">Technologies</a></li>
@@ -42,8 +42,8 @@ We curate so you don't have to worry about playlists.</p>
   <li><a href="./README.md#License">License</a></li>
 </ul>
 
-
-<h2>📌 Status</h2>
+<p>📌
+<h2>Status</h2></p>
 <h4 align="center">📺 ScienceFlix is complete 🚀</h4>
 
 
