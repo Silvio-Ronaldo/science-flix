@@ -42,11 +42,11 @@ We curate so you don't have to worry about playlists.</p>
   <li><a href="./README.md#License">License</a></li>
 </ul>
 
-<h2>Status</h2>
+<h2>📌 Status</h2>
 <h4 align="center">📺 ScienceFlix is complete 🚀</h4>
 
 
-<h2>Demonstration</h2>
+<h2>🖥️ Demonstration</h2>
 <p>
   <strong>To access and test the ScienceFlix platform, click on the link: https://science-flix-silvio-ronaldo.vercel.app</strong>
 </p>
@@ -62,7 +62,7 @@ We curate so you don't have to worry about playlists.</p>
   </p>
   
 
-<h2>Running locally</h2>
+<h2>🕹️ Running locally</h2>
 <h3>Prerequisites</h3>
 <ol>
   <li><strong>Installing Git:</strong> You need to have Git on your machine to perform a few steps. To download Git, click <a href="https://git-scm.com/downloads">here.</a></li></br>
@@ -88,7 +88,7 @@ We curate so you don't have to worry about playlists.</p>
 </ol>
 
 
-<h2>Technologies</h2>
+<h2>🛡️ Technologies</h2>
 <p>The following tools were used in the development of the project: </p>
 
 <ul>
@@ -102,7 +102,7 @@ We curate so you don't have to worry about playlists.</p>
 </ul>
 
 
-<h2>Author</h2>
+<h2>👽 Author</h2>
 <p>
   <img src="https://avatars.githubusercontent.com/u/48893927?v=4" alt="Silvio Ronaldo" height=80 width=80 />
 </p>
@@ -113,7 +113,7 @@ We curate so you don't have to worry about playlists.</p>
 <a href="https://br.linkedin.com/in/silvio-ronaldo77"><img src="https://img.shields.io/badge/-Silvio-blue?style=flat&logo=Linkedin&logoColor=white" alt="Silvio Ronaldo's LinkedIn" /></a></p>
 
 
-<h2>License</h2>
+<h2>⚖️ License</h2>
 <p><strong>ScienceFlix is MIT licensed, as found in the <a href="./LICENSE">LICENSE file</a>.</strong></p>
   
   
