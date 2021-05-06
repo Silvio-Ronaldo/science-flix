@@ -11,8 +11,6 @@ function Routes() {
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/cadastro/video" exact component={VideoRegister} />
-                <Route path="/cadastro/categoria" exact component={CategoryRegister} />
                 <Route component={InvalidPage} />
             </Switch>
         </BrowserRouter>
