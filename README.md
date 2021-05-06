@@ -34,7 +34,7 @@ We curate so you don't have to worry about playlists.</p>
   📋 Table of contents
 </h2>
 <ul>
-  <li><a href="./README.md#Status">Status</a></li>
+  <li><a href="./README.md#📌-Status">Status</a></li>
   <li><a href="./README.md#Demonstration">Demonstration</a></li>
   <li><a href="./README.md#Running-Locally">Running Locally</a></li>
   <li><a href="./README.md#Technologies">Technologies</a></li>
