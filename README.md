@@ -42,7 +42,7 @@ We curate so you don't have to worry about playlists.</p>
   <li><a href="./README.md#License">License</a></li>
 </ul>
 
-<p>📌<h2>Status</h2></p>
+<h2>Status 📌</h2>
 <h4 align="center">📺 ScienceFlix is complete 🚀</h4>
 
 
